@@ -4,7 +4,7 @@ Bildiğiniz üzere Türkçe sondan eklemeli ve bünyesinde çok fazla başka dil
 
 ### Bu projenin amaçları:
  - Kelime kökü bulma
- - Farklı ekler almış ama kökleri aynı olan kelimeleri tek bir kelime(kök) altında toplamak istiyorum.  
+ - Farklı ekler almış ama kökleri aynı olan kelimeleri tek bir kelime(kök) altında toplamak
 
 #### Eklenecek kurallar <img src="https://user-images.githubusercontent.com/86206193/233212314-1e7d51e9-d80e-4f13-a260-488a41429156.jpg" alt="pp" width="10%" height="10%" align ='right'/>
 
@@ -37,7 +37,7 @@ Bildiğiniz üzere Türkçe sondan eklemeli ve bünyesinde çok fazla başka dil
 Bu bulunan köklerin %100 doğru olmasını beklenmemeli. Bu projenin her ne kadar amacı kök bulmak olsa da diğer bir amacı ise kelimeleri olabildiğince bir kelime altında toplamak. 
 Örneğin: vardı, varmak, varmış, varacak ... kelimelerini var adı altında toplamak benim için tatmin edici bir sonuç. NLP mantığında kelimeleri bir vektöre çevirirken ağırlık(örn: kelime sayısı/count) büyük bir önem taşır. 
 
-Şimdi içinde 570k dan fazla kelime olan önceden eğitilmiş bir gloveTurkısh sözlüğünü kullanarak kök bulmadan önce ve sonra ne kadar kelimeyle uğraşmam gerektiğini ve ne kadar kelime yakaladığımın sonucuna bakalım. ([EmbeddingTest sonuçları ](https://github.com/iskenderaltns/StemmingTurkish/blob/main/EmbeddingTest.ipynb)) 
+Şimdi içinde 570k dan fazla kelime olan GloveTurkish modelini kullanarak kök bulmadan önce ve sonra ne kadar kelimeyle uğraşmam gerektiğini ve ne kadar kelime yakaladığımın sonucuna bakalım. ([EmbeddingTest sonuçları ](https://github.com/iskenderaltns/StemmingTurkish/blob/main/EmbeddingTest.ipynb)) 
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/86206193/233216130-1ede560b-17e3-4f1e-ba34-75e776231af8.png" alt="p1p" width="40%" height="50%"/>
