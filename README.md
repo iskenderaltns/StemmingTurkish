@@ -14,7 +14,7 @@ Bildiğiniz üzere Türkçe sondan eklemeli ve bünyesinde çok fazla başka dil
 
 #### Eklenen özellikler
 - İngilizce klavye yüzünden yazılamayan üöşğıç harflerinin oluşturduğu kelime çeşitliliği kaldırıldı ([StemmedVisualization](https://github.com/iskenderaltns/StemmingTurkish/blob/main/StemmedVisualization.ipynb)--> possibleMatch)
-  - örneğin: Eğer datamızda urun, ürün, ürun, urün kelimeleri varsa bunlar tek bir kelime altında toplanacak. Fakat bu keime ürün olmak zorunda değil. Bu olasılıklardan hangisinin (yani ürün mü doğru yoksa urun mu ) doğru olduğunu kestirmek zor bir iş. 
+  - örneğin: Eğer datamızda urun, ürün, ürun, urün kelimeleri varsa bunlar tek bir kelime altında toplanacak. Fakat bu kelime ürün olmak zorunda değil. Bu olasılıklardan hangisinin (yani ürün mü doğru yoksa urun mu ) doğru olduğunu kestirmek zor bir iş. 
 - yapılan eylemin olumlu mu olumsuz mu olduğunu anlama ([stemmingTurkish](https://github.com/iskenderaltns/StemmingTurkish/blob/main/stemmingTurkish.py) --> stemming --> yorum satırıda olan kodu aktifleştirmeniz gerekiyor) 
 
    > if self.negative_words: result.append('-negative-')
